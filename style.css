@@ -1,0 +1,221 @@
+body{
+    background-color: rgb(252, 138, 7);
+    width: 100%;
+    overflow-x: hidden;
+    margin-left: 0px;
+}
+.d2{
+    width: 300px;
+    height: 100px;
+    border: 5px red;
+    background-color: pink;
+    border-radius: 25px;
+    border: 5px black;
+    text-align: center;
+    margin-left: 300px;
+    box-shadow: 5px 5px 5px gray;
+    text-shadow: 5px 5px 5px rgb(102, 8, 24);
+    position:  relative;
+    top: 0px; 
+    right:200px ;
+    left: 200px;
+    font-size: 30px;
+    padding: 20px;
+
+    
+
+    
+}
+.d1{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+
+}
+.hr1{
+    position: inherit;
+    bottom: 10px;
+    width: 100%;
+    
+}
+.hr2{
+    position: inherit;
+    bottom: 5px;
+    width: 100%;
+}
+.parent{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    border: 5px solid rgb(255, 231, 192);
+    margin-top: 200px;
+    background-color: rgb(218, 199, 29);
+    
+}
+.top1{
+    font-size: 25px;
+    color: black;
+    height: 200px;
+    width: 200px;
+    border: 5px solid palevioletred;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+    box-shadow: 3px 3px 5px rgb(62, 3, 114);
+    text-shadow: 3px 3px 5px rgb(62, 3, 114) ;
+    background-color: rgb(255, 192, 207);
+}
+.top2{
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid palevioletred;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    border-radius: 25px;
+padding: 10px;
+background-color: rgb(255, 192, 207);
+box-shadow: 3px 3px 5px rgb(62, 3, 114);
+
+}
+img{
+    height: 180px;
+    width: 180px;
+
+}
+.bottom1{
+    font-size: 25px;
+    color: black;
+    height: 200px;
+    width: 200px;
+    border: 5px solid palevioletred;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    line-height: 30px;
+    box-shadow: 3px 3px 5px rgb(62, 3, 114);
+    text-shadow: 3px 3px 5px rgb(62, 3, 114) ;
+    background-color: rgb(255, 192, 207);
+    
+}
+.bottom2{
+
+    color: black;
+    height: 200px;
+    width: 200px;
+    border: 5px solid palevioletred;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+    box-shadow: 3px 3px 5px rgb(62, 3, 114);
+    text-shadow: 3px 3px 5px rgb(62, 3, 114) ;
+    background-color: rgb(255, 192, 207);
+}
+.button{
+    background-color: red;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+.button:hover{
+    background-color: aquamarine;
+}
+.first{
+    color: rgb(105, 4, 9);
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+
+}
+.second{
+    color: rgb(105, 4, 9);
+    width: 200px;
+    text-align: center;
+}
+.fixed{
+    background-color: rgb(11, 244, 162);
+    border: 5px solid rgb(86, 6, 32);
+    box-shadow: 5px 5px 5px rgb(48, 2, 89);
+    width: 500px;
+    border-radius: 25px;
+    position: fixed;
+    left: 400px;
+    top: 500px;
+    align-items: center;
+    padding: 5px;
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.main{
+    background-color: rgb(4, 161, 106);
+    border: 5px solid rgb(222, 110, 12);
+    width: 900px;
+    margin-left: 300px;
+    position: absolute;
+    margin-top: 900px;
+    
+    
+}
+.head{
+ width: inherit;
+ color: black;
+ font-size: 20px;
+ font-style: italic;
+ text-align: center;
+}
+.h1{
+    font-style: italic;
+    font-size: 25px;
+    color: black;
+}
+.font{
+    color: black;
+}
+.left{
+    background-color: rgb(244, 205, 8);
+    color: black;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid rgb(6, 244, 161);;
+    
+
+}
+.right{
+    background-color: rgb(250, 209, 5);
+    color: black;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    position: inherit;
+    right: 0px;
+    top: 85px;
+    padding: 10px;
+    border: 5px solid rgb(6, 244, 160);;
+
+}
+.last{
+    background-color: rgb(243, 203, 4);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid rgb(7, 241, 159);;
+}
